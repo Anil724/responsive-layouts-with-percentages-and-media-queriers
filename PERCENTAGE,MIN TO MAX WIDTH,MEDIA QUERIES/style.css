@@ -1,0 +1,171 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+} 
+h1::first-letter{
+    color: green;
+    font-size: 3rem;
+}
+p::first-line{
+    color: lightcoral;
+}
+h1::after{
+    content: "🏏";
+}
+ol li{
+    font-size: 2rem;
+    color: red;
+    /* text-align: center; */
+}
+ol li::marker{
+    content: "🏏";
+}
+p::selection{
+    background-color: yellow;
+    color: red;
+} 
+a{
+    font-size: 1.4rem;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: goldenrod;
+}
+a:hover{
+    color: chartreuse;
+    background-color: black;
+    text-decoration: none;
+}
+a:active{
+    color: lightslategray;
+    background-color: orange;
+}
+h1:hover{
+    color: aqua;
+    background-color: brown;
+}
+p:hover{
+    color: yellow;
+    background-color: lime;
+}
+ol li:hover{
+    color: darkviolet;
+    background-color: khaki;
+}
+iframe{
+    width: 470px;
+    height: 500px;
+}
+img{
+    /* width: 50%; */
+    width: 600px;
+    height: 500px;
+}
+img:hover{
+    /* filter: grayscale(100%); */
+    /* filter: blur(05px); */
+    /* filter: none; */
+    /* filter:invert(100%); */
+    filter: brightness(200%);
+    /* filter: drop-shadow(10px 10px 10px black); */
+    /* filter: opacity(0.4); */
+    /* box-shadow: 10px 10px 10px black; */
+    /* filter: contrast(500%); */
+    /* filter: grayscale(200%); */
+    /* filter: hue-rotate(50deg); */
+    /* filter: saturate(500%); */
+    /* filter: sepia(500%); */
+}
+@media only screen and (min-width:1000px) and (max-width:1200px){
+    body{
+        background-color: darkolivegreen;
+    }
+    h1{
+        color: yellow;
+    }
+    p{
+        color: red;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:800px){
+    body{
+        background-color: gray;
+    }
+    h1{
+        color: orangered;
+    }
+    p{
+        color: blue;
+    }
+}
+@media only screen and (min-width:0px) and (max-width:100px){
+    body{
+        background-color:blueviolet
+    }
+    h1{
+        color:brown
+    }
+    p{
+        color:burlywood
+    }
+}
+@media only screen and (min-width:300px) and (max-width:500px){
+    body{
+        background-color:cadetblue;
+    }
+    h1{
+        color:cornflowerblue;
+    }
+    p{
+        color: darkcyan;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
+    body{
+        background-color: blueviolet;
+    }
+    h1{
+        color: rgb(50,50,20);
+    }
+    p{
+        color: greenyellow;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:1000px){
+    body{
+        background-color: aqua;
+    }
+    h1{
+        color: lightslategray;
+    }
+    p{
+        color: goldenrod;
+    }
+}
+@media only screen and (min-width:1400px) and (max-width:1600px){
+    body{
+        background-color: yellow;
+    }
+    h1{
+        color: black;
+    }
+    p{
+        color: blue;
+    }
+}
+@media only screen and (min-width:100px) and (max-width:300px){
+    body{
+        background-color: gold;
+    }
+    h1{
+        color: orchid;
+    }
+    p{
+        color: black;
+    }
+}
+
